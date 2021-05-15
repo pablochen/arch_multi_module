@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'home'
+include 'module-crawler'
+include 'module-platform'
+include 'module-trade'
+include 'module-algorithm'
+
